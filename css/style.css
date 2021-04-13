@@ -31,7 +31,7 @@
     }
 
 #main {
-    background-image: radial-gradient(#6f5964, #221216);
+    background-image: radial-gradient(#725f69, #221216);
     padding: 20px;
 }
 
@@ -51,7 +51,7 @@
 }
 
     #bioBox h3 {
-        background-color: #8e8d99;
+        background-image: linear-gradient(#b2b2b6, #908e9a, #b2b2b6);
         color: white;
         padding: 10px;
     }
@@ -97,20 +97,15 @@
     .techImages {
         background-color: #e7dde6;
         display: flex;
-        /* display: inline-block; */
-        /* justify-content: space-evenly; */
-        /* flex-direction: row; */
-        /* justify-content: space-between; */
-        /* padding: 15px; */
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding-left: 15px ;
     }
     
         .techImages img {
-            height: 40px;
-            width: 40px;
-            /* width: 20%; */
-            /* justify-content: space-between; */
-            /* padding: 15px; */
-            margin: 10px;
+            width: 15%;
+            height: auto;
+            margin: 5px;
         }
 
 
@@ -119,6 +114,7 @@
         color:white;
         border: 1px solid black;
         border-radius: 10px;
+        display: inline-block;
         padding: 5px;
         margin: 10px 100px;
         font-weight: 900;
@@ -137,20 +133,11 @@
         padding: 10px;
         display: flex;
         justify-content: center;
-        /* text-align: center; */
     }
     
         #socialMed img {
             width: 20px;
             margin: 7px;
         }
-
-        /* #socialMed a {
-            padding-bottom: 15px;
-        } */
-
-
-
-
 
     
